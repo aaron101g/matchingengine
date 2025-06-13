@@ -5,16 +5,18 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine
     public class MatchingEngine
     {
         public MatchingEngineMethods _matchEngine;
+        public string _url;
 
         public MatchingEngine()
         {
             _matchEngine = new MatchingEngineMethods();
+            _url = _matchEngine._matchengineUtils.url;
         }
 
         [Fact]
         public void Test1()
         {
-            _matchEngine.InitializeFE();
+            _matchEngine.InitializeFE(_url);
             Assert.True(true);
         }
     }
