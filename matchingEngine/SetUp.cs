@@ -11,9 +11,10 @@ namespace matchingEngine
         public string url { get; set; } = "https://www.matchingengine.com/";
 
 
-        public void InitializeFE(string browserType = "Chrome")
+        public void InitializeFE(string urlToGoTo, string browserType = "Chrome")
         {
             BrowserSelect(browserType);
+            GoToUrl(urlToGoTo);
 
         }
 
@@ -55,7 +56,7 @@ namespace matchingEngine
 
         }
 
-        public void JumpToURL(string urlToNavigateTo)
+        public void GoToUrl(string urlToNavigateTo)
         {
             Driver.Navigate().GoToUrl(urlToNavigateTo);
         }

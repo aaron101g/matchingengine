@@ -14,7 +14,7 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine
         [Fact]
         public void Test1()
         {
-            _matchEngine.
+            _matchEngine.InitializeFE();
             Assert.True(true);
         }
     }
