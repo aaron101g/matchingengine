@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|c:\\users\\aaronglennon\\source\\repos\\matchingengine\\matchingengine\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|solutionrelative:matchingengine\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|c:\\users\\aaronglennon\\source\\repos\\matchingengine\\matchingengine\\matchingengine.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|solutionrelative:matchingengine\\matchingengine.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|c:\\users\\aaronglennon\\source\\repos\\matchingengine\\matchingengine\\frontend\\tests\\matchingengine\\matchingenginetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|solutionrelative:matchingengine\\frontend\\tests\\matchingengine\\matchingenginetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedHeight": 221,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "matchingEngine",
+              "DocumentMoniker": "C:\\Users\\AaronGlennon\\source\\repos\\matchingEngine\\matchingEngine\\matchingEngine.csproj",
+              "RelativeDocumentMoniker": "matchingEngine\\matchingEngine.csproj",
+              "ToolTip": "C:\\Users\\AaronGlennon\\source\\repos\\matchingEngine\\matchingEngine\\matchingEngine.csproj",
+              "RelativeToolTip": "matchingEngine\\matchingEngine.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-13T21:06:09.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SetUp.cs",
+              "DocumentMoniker": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\SetUp.cs",
+              "RelativeDocumentMoniker": "matchingEngine\\SetUp.cs",
+              "ToolTip": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\SetUp.cs",
+              "RelativeToolTip": "matchingEngine\\SetUp.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:06:21.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatchingEngineTests.cs",
+              "DocumentMoniker": "C:\\Users\\AaronGlennon\\source\\repos\\matchingEngine\\matchingEngine\\Frontend\\Tests\\MatchingEngine\\MatchingEngineTests.cs",
+              "RelativeDocumentMoniker": "matchingEngine\\Frontend\\Tests\\MatchingEngine\\MatchingEngineTests.cs",
+              "ToolTip": "C:\\Users\\AaronGlennon\\source\\repos\\matchingEngine\\matchingEngine\\Frontend\\Tests\\MatchingEngine\\MatchingEngineTests.cs",
+              "RelativeToolTip": "matchingEngine\\Frontend\\Tests\\MatchingEngine\\MatchingEngineTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:00:59.101Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{faabacce-1340-5da9-adf5-fe7e951d356f}"
@@ -22,10 +74,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         },
