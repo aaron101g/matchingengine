@@ -76,6 +76,12 @@ namespace matchingEngine.Frontend.General
 
             throw new Exception($"ClickElement failed after {maxAttempts} attempts on locator: {locator}");
         }
+
+        public void ScrollToElement(By element)
+        {
+            IWebElement elementToScrollTo = Driver.FindElement(element);
+            ((IJavaScriptExecutor)Driver).ExecuteScript("arguments[0].scrollIntoView();", elementToScrollTo);
+        }
     }
 }
 

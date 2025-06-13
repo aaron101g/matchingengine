@@ -18,6 +18,8 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine
         {
             _matchEngine.InitializeFE(_url);
             _matchEngine.GoToRepManageModule(); //could add an assert to verify correct url in browser or page title
+            _matchEngine.ScrollToElement(_matchEngine._matchengineUtils.additionalFeaturesHeading);
+            _matchEngine.ClickElement(_matchEngine._matchengineUtils.productsSupportedNav);
             Assert.True(true);
         }
     }

@@ -21,5 +21,6 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine.SetUp
             ClickElement(_matchengineUtils.moduleNav);
             ClickElement(_matchengineUtils.repertoireManagementModuleNav);
         }
+
     }
 }
