@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace matchingEngine.Frontend.General
 {
-    public class FeGeneralMethods
+    public class FeGeneralMethods : SetUp
     {
 
         public void ClickElements(By locator, int indexPosition)
@@ -78,4 +78,4 @@ namespace matchingEngine.Frontend.General
         }
     }
 }
-}
+
