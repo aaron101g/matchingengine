@@ -19,6 +19,7 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine.SetUp
         public void GoToRepManageModule()
         {
             ClickElement(_matchengineUtils.moduleNav);
+            ClickElement(_matchengineUtils.repertoireManagementModuleNav);
         }
     }
 }

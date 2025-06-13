@@ -17,6 +17,7 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine
         public void Test1()
         {
             _matchEngine.InitializeFE(_url);
+            _matchEngine.GoToRepManageModule(); //could add an assert to verify correct url in browser or page title
             Assert.True(true);
         }
     }
