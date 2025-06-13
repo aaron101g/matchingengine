@@ -10,7 +10,7 @@ namespace matchingEngine.Frontend.General
     public class FeGeneralMethods : SetUp
     {
 
-        public void ClickElements(By locator, int indexPosition)
+        public void ClickElement(By locator)
         {
             const int maxAttempts = 3;
             int attempts = 0;
@@ -19,8 +19,8 @@ namespace matchingEngine.Frontend.General
             {
                 try
                 {
-                    var element = FindElementsCustom(Driver, locator);
-                    element[indexPosition].Click();
+                    var element = FindElementCustom(Driver, locator);
+                    element.Click();
 
                     return;
                 }
@@ -44,7 +44,7 @@ namespace matchingEngine.Frontend.General
             throw new Exception($"ClickElement failed after {maxAttempts} attempts on locator: {locator}");
         }
 
-        public IList<IWebElement> FindElementsCustom(IWebDriver driver, By locator)
+        public IWebElement FindElementCustom(IWebDriver driver, By locator)
         {
             const int maxAttempts = 3;
             int attempts = 0;
@@ -53,7 +53,7 @@ namespace matchingEngine.Frontend.General
             {
                 try
                 {
-                    IList<IWebElement> element = driver.FindElements(locator);
+                    var element = driver.FindElement(locator);
 
                     return element;
                 }

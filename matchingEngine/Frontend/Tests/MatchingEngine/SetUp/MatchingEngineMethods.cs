@@ -15,5 +15,10 @@ namespace matchingEngine.Frontend.Tests.MatchingEngine.SetUp
         {
             _matchengineUtils = new MatchingEngineUtils();
         }
+
+        public void GoToRepManageModule()
+        {
+            ClickElement(_matchengineUtils.moduleNav);
+        }
     }
 }

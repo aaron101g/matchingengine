@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|c:\\users\\aaronglennon\\source\\repos\\matchingengine\\matchingengine\\frontend\\general\\fegeneralmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|solutionrelative:matchingengine\\frontend\\general\\fegeneralmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|c:\\users\\aaronglennon\\source\\repos\\matchingengine\\matchingengine\\frontend\\tests\\matchingengine\\setup\\matchingenginemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|solutionrelative:matchingengine\\frontend\\tests\\matchingengine\\setup\\matchingenginemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|c:\\users\\aaronglennon\\source\\repos\\matchingengine\\matchingengine\\frontend\\tests\\matchingengine\\setup\\matchingengineutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F95E912-1623-4DDD-B890-89E137D0576C}|matchingEngine\\matchingEngine.csproj|solutionrelative:matchingengine\\frontend\\tests\\matchingengine\\setup\\matchingengineutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 221,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FeGeneralMethods.cs",
+              "DocumentMoniker": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\Frontend\\General\\FeGeneralMethods.cs",
+              "RelativeDocumentMoniker": "matchingEngine\\Frontend\\General\\FeGeneralMethods.cs",
+              "ToolTip": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\Frontend\\General\\FeGeneralMethods.cs",
+              "RelativeToolTip": "matchingEngine\\Frontend\\General\\FeGeneralMethods.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:48:38.869Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{faabacce-1340-5da9-adf5-fe7e951d356f}"
@@ -30,13 +51,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "MatchingEngineMethods.cs",
+              "DocumentMoniker": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineMethods.cs",
+              "RelativeDocumentMoniker": "matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineMethods.cs",
+              "ToolTip": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineMethods.cs*",
+              "RelativeToolTip": "matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineMethods.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:47:42.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MatchingEngineUtils.cs",
               "DocumentMoniker": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineUtils.cs",
               "RelativeDocumentMoniker": "matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineUtils.cs",
               "ToolTip": "C:\\Users\\AaronGlennon\\source\\repos\\matchingengine\\matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineUtils.cs",
               "RelativeToolTip": "matchingEngine\\Frontend\\Tests\\MatchingEngine\\SetUp\\MatchingEngineUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T21:40:33.236Z",
               "EditorCaption": ""
