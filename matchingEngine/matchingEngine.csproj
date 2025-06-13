@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -36,8 +36,6 @@
 
   <ItemGroup>
     <Folder Include="Frontend\General\" />
-    <Folder Include="Frontend\Tests\MatchingEngine\MatchingEngineUtils\" />
-    <Folder Include="Frontend\Tests\MatchingEngine\MatchingEngineMethods\" />
   </ItemGroup>
 
 </Project>
